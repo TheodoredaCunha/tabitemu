@@ -56,6 +56,23 @@ export default function App() {
     try { localStorage.setItem('tabitemu-lang', lang); } catch { /* storage unavailable */ }
   }, [lang]);
 
+  useEffect(() => {
+    const touch = window.matchMedia('(pointer: coarse)');
+    const narrow = window.matchMedia('(max-width: 800px)');
+    const apply = () => {
+      document.documentElement.dataset.input = touch.matches ? 'touch' : 'mouse';
+      document.documentElement.dataset.device = narrow.matches ? 'mobile' : 'desktop';
+    };
+    apply();
+    touch.addEventListener('change', apply); narrow.addEventListener('change', apply);
+    return () => { touch.removeEventListener('change', apply); narrow.removeEventListener('change', apply); };
+  }, []);
+
+  useEffect(() => {
+    document.body.style.overflow = addModal ? 'hidden' : '';
+    return () => { document.body.style.overflow = ''; };
+  }, [addModal]);
+
   const update = (key, value) => setForm(prev => ({ ...prev, [key]: value }));
   const toggleInterest = item => update('interests', form.interests.includes(item) ? form.interests.filter(x => x !== item) : [...form.interests, item]);
   const go = next => { setPage(next); setMobileMenu(false); window.scrollTo({ top: 0, behavior: 'smooth' }); };

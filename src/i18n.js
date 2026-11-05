@@ -25,7 +25,7 @@ const en = {
   'story.2.title': 'A well-deserved escape', 'story.2.detail': 'Shopping, culture and memorable moments.', 'story.2.tag': 'Girls’ trip',
   'story.3.title': 'Two tickets to Japan', 'story.3.detail': 'A personal route for two curious travelers.', 'story.3.tag': 'Couples trip',
 
-  'guides.eyebrow': 'YOUR LOCAL INSIDER', 'guides.t1': 'Meet your ', 'guides.t2': 'people.',
+  'guides.eyebrow': 'YOUR LOCAL INSIDER', 'guides.t1': 'Meet your ', 'guides.t2': 'tour guides.',
   'guides.copy': 'Not just guides. Passionate locals who know their scene, their city and the little details that make a trip unforgettable.',
   'guides.cta': 'Find your specialist', 'guide.meet': 'MEET {name}', 'guide.alt': '{name}, tour guide',
   'guide.0.role': 'Anime & gaming specialist', 'guide.0.bio': 'From iconic anime neighborhoods to hidden figure shops and retro arcades, Ren knows where fandom comes to life.', 'guide.0.tags': 'Anime|Gaming|Akihabara',
@@ -126,7 +126,7 @@ const id = {
   'story.2.title': 'Pelarian yang pantas didapat', 'story.2.detail': 'Belanja, budaya, dan momen tak terlupakan.', 'story.2.tag': 'Liburan para sahabat wanita',
   'story.3.title': 'Dua tiket ke Jepang', 'story.3.detail': 'Rute pribadi untuk dua pelancong yang penasaran.', 'story.3.tag': 'Liburan pasangan',
 
-  'guides.eyebrow': 'PEMANDU LOKALMU', 'guides.t1': 'Kenali ', 'guides.t2': 'orang-orangmu.',
+  'guides.eyebrow': 'PEMANDU LOKALMU', 'guides.t1': 'Kenali ', 'guides.t2': 'pemandu wisatamu.',
   'guides.copy': 'Bukan sekadar pemandu. Warga lokal yang bersemangat, paham dunianya, kotanya, dan detail kecil yang membuat perjalanan tak terlupakan.',
   'guides.cta': 'Temukan spesialismu', 'guide.meet': 'KENALI {name}', 'guide.alt': '{name}, pemandu wisata',
   'guide.0.role': 'Spesialis anime & gaming', 'guide.0.bio': 'Dari kawasan anime ikonik hingga toko figur tersembunyi dan arkade retro, Ren tahu di mana dunia penggemar hidup.', 'guide.0.tags': 'Anime|Gaming|Akihabara',
