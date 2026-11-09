@@ -3,7 +3,7 @@
 A responsive React + Vite prototype for a customizable private-tour service in Japan.
 
 ## Features
-- Landing page with traveler-story carousel, service explanation, and specialist guide profiles.
+- Landing page with a short introduction and specialist guide profiles.
 - Itinerary builder with travel dates, group size, destination, pace, accommodation preferences, mix-and-match interests, and notes.
 - Two sample itinerary drafts: **Explore more** and **Budget-friendly**.
 - Editable itinerary stops, add/remove stop controls, and a demo chat assistant.
@@ -17,7 +17,8 @@ npm install
 npm run dev
 ```
 
-Open the local URL printed by Vite (normally http://localhost:5173).
+Open the local URL printed by Vite.
+Vite's base path is `/tabitemu/` (normally http://localhost:5173/tabitemu/).
 
 ## Build
 
@@ -26,4 +27,4 @@ npm run build
 ```
 
 ## Prototype limitations
-Itinerary generation and chat are intentionally stubbed with sample responses. Service requests are only stored in the current browser session; no backend, database, payments, or booking integrations are connected. Images are loaded from Unsplash URLs, so an internet connection is needed to display them.
+Itinerary generation and chat are intentionally stubbed with sample responses. Trip details, plans, and service requests are only stored in the current browser session; no backend, database, payments, or booking integrations are connected. Images are loaded from Unsplash URLs, so an internet connection is needed to display them.

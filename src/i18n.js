@@ -3,41 +3,44 @@ export const languages = { en: 'English', id: 'Bahasa Indonesia' };
 const en = {
   'lang.label': 'Language',
   'brand.tagline': 'YOUR JAPAN, YOUR WAY',
-  'nav.discover': 'Discover', 'nav.plan': 'Plan your trip', 'nav.services': 'Our services', 'nav.cta': 'Build my itinerary', 'nav.toggle': 'Toggle menu',
+  'nav.discover': 'Discover', 'nav.plan': 'Plan your trip', 'nav.services': 'Our services', 'nav.cta': 'Start planning', 'nav.toggle': 'Toggle menu',
 
   'progress.aria': 'Booking progress', 'progress.count': 'Step {n} of {total}',
   'step.details': 'Trip details', 'step.itinerary': 'Your itinerary', 'step.addons': 'Add-ons',
   'back.home': 'Back to home', 'back.builder': 'Back to trip details', 'back.results': 'Back to itinerary',
 
-  'hero.eyebrow': 'PRIVATE TOURS · JAPAN', 'hero.t1': 'Japan is better', 'hero.t2': 'your way.',
-  'hero.p': 'Not another package tour. A private Japan experience shaped around what you love, with a local specialist by your side.',
-  'hero.cta': 'Create your itinerary', 'hero.note': 'Made for your kind of adventure', 'hero.side': 'TOKYO · KYOTO · BEYOND',
+  'hero.eyebrow': 'LET’S EXPLORE JAPAN', 'hero.t1': 'Japan is better', 'hero.t2': 'your way.',
+  'hero.p': 'We pair your interests with local guides to help you plan a Japan trip at your own pace.',
+  'hero.cta': 'Build my itinerary', 'hero.note': 'Made for your kind of adventure', 'hero.side': 'TOKYO · KYOTO · BEYOND',
 
-  'intro.eyebrow': 'A DIFFERENT WAY TO TRAVEL', 'intro.t1': 'Your interests.', 'intro.t2': 'Your people.', 'intro.t3': 'Your Japan.',
+  'intro.eyebrow': 'A TRIP THAT FEELS LIKE YOU', 'intro.t1': 'Your interests.', 'intro.t2': 'Your people.', 'intro.t3': 'Your Japan.',
   'intro.lead': 'Whether you’re here for anime, vintage fashion, JDM culture, food, history—or a little bit of everything—we bring the right people and places together.',
-  'intro.p': 'Choose the experiences you care about and mix different specialties into one private journey. No rigid packages. No one-size-fits-all schedule.',
+  'intro.p': 'Pick the experiences you care about and mix local specialties into a trip that feels like yours. Start with a few ideas and adjust as you go—there’s no single right way to plan.',
   'intro.cta': 'Build a trip that feels like yours',
 
-  'stories.eyebrow': 'REAL PEOPLE, PERSONAL ROUTES', 'stories.t1': 'Every trip has', 'stories.t2': 'its own story.',
+  'stories.eyebrow': 'REAL PEOPLE, DIFFERENT WAYS TO EXPLORE', 'stories.t1': 'Every trip has', 'stories.t2': 'its own story.',
   'stories.prev': 'Previous', 'stories.next': 'Next', 'stories.show': 'Show story {n}',
   'story.0.title': 'A family adventure', 'story.0.detail': 'A little of everything, at everyone’s pace.', 'story.0.tag': 'Family trip',
   'story.1.title': 'Friends on the move', 'story.1.detail': 'Arcades, late-night eats and city energy.', 'story.1.tag': 'Friends getaway',
   'story.2.title': 'A well-deserved escape', 'story.2.detail': 'Shopping, culture and memorable moments.', 'story.2.tag': 'Girls’ trip',
   'story.3.title': 'Two tickets to Japan', 'story.3.detail': 'A personal route for two curious travelers.', 'story.3.tag': 'Couples trip',
 
-  'guides.eyebrow': 'YOUR LOCAL INSIDER', 'guides.t1': 'Meet your ', 'guides.t2': 'tour guides.',
-  'guides.copy': 'Not just guides. Passionate locals who know their scene, their city and the little details that make a trip unforgettable.',
+  'guides.eyebrow': 'MEET YOUR LOCAL COMMUNITY', 'guides.t1': 'Meet your ', 'guides.t2': 'tour guides.',
+  'guides.copy': 'Local people who love sharing the places and interests that make Japan special.',
   'guides.cta': 'Find your specialist', 'guide.meet': 'MEET {name}', 'guide.alt': '{name}, tour guide',
   'guide.0.role': 'Anime & gaming specialist', 'guide.0.bio': 'From iconic anime neighborhoods to hidden figure shops and retro arcades, Ren knows where fandom comes to life.', 'guide.0.tags': 'Anime|Gaming|Akihabara',
   'guide.1.role': 'Fashion & street culture', 'guide.1.bio': 'Explore Tokyo’s independent labels, vintage stores, streetwear corners and the people shaping local style.', 'guide.1.tags': 'Fashion|Vintage|Streetwear',
   'guide.2.role': 'Cars & local culture', 'guide.2.bio': 'A car enthusiast who can take you beyond the obvious, from automotive landmarks to local food stops.', 'guide.2.tags': 'Cars|Food|Local spots',
+  'guide.3.role': 'Food & neighborhood finds', 'guide.3.bio': 'Aiko loves finding tiny family-run restaurants, lively markets, and favorite local snacks.', 'guide.3.tags': 'Food|Markets|Local spots',
+  'guide.4.role': 'History & everyday Tokyo', 'guide.4.bio': 'Kenji brings the past to life with easygoing walks through old streets, shrines, and hidden corners.', 'guide.4.tags': 'History|Walking|Shrines',
+  'guide.5.role': 'Art, nature & slow days', 'guide.5.bio': 'Yui knows peaceful gardens, creative spaces, and lovely places to pause and take it all in.', 'guide.5.tags': 'Art|Gardens|Relaxed',
 
   'mix.eyebrow': 'THE TABITEMU DIFFERENCE', 'mix.t1': 'Why choose one', 'mix.t2': 'when you can ', 'mix.t3': 'mix it up?',
   'mix.p': 'Start your morning exploring vintage shops with a fashion insider. Spend the afternoon at an anime landmark. Finish with a local food crawl. Your day, your combination.',
   'mix.cta': 'Mix your interests', 'mix.alt.fashion': 'Tokyo fashion', 'mix.alt.anime': 'Anime culture', 'mix.alt.food': 'Japanese food',
   'cta.eyebrow': 'READY WHEN YOU ARE', 'cta.t1': 'Let’s make this trip', 'cta.t2': 'yours.', 'cta.button': 'Start planning',
 
-  'builder.eyebrow': 'YOUR TRIP STARTS HERE', 'builder.t1': 'Let’s plan a Japan', 'builder.t2': 'that feels like you.',
+  'builder.eyebrow': 'YOUR TRIP STARTS HERE', 'builder.t1': 'Let’s plan a Japan trip', 'builder.t2': 'that feels like you.',
   'builder.p': 'Tell us a little about your trip. We’ll sketch out two ways to experience it.',
   'form.step1': '01 / THE BASICS', 'form.h1': 'First, the details.', 'form.p1': 'We’ll use these to shape your first itinerary draft.',
   'form.arrival': 'Arrival date', 'form.departure': 'Departure date', 'form.travelers': 'Number of travelers', 'form.where': 'Where would you like to go?',
@@ -97,48 +100,51 @@ const en = {
   'services.bottom.eyebrow': 'NOT SURE WHAT YOU NEED?', 'services.bottom.t1': 'We’ll figure it', 'services.bottom.t2': 'out together.',
   'services.bottom.p': 'Start with your interests. We’ll help you decide which specialists and services make sense.', 'services.bottom.cta': 'Start with your itinerary',
 
-  'footer.tagline': 'Private Japan journeys, made personal.', 'footer.services': 'Services',
+  'footer.tagline': 'Japan journeys, made personal.', 'footer.services': 'Services',
   'footer.copy': '© 2026 Tabitemu. Prototype concept.', 'footer.made': 'Made for curious travelers',
 };
 
 const id = {
   'lang.label': 'Bahasa',
   'brand.tagline': 'JEPANGMU, CARAMU',
-  'nav.discover': 'Jelajahi', 'nav.plan': 'Rencanakan perjalanan', 'nav.services': 'Layanan kami', 'nav.cta': 'Buat itinerari saya', 'nav.toggle': 'Buka/tutup menu',
+  'nav.discover': 'Jelajahi', 'nav.plan': 'Rencanakan perjalanan', 'nav.services': 'Layanan kami', 'nav.cta': 'Mulai merencanakan', 'nav.toggle': 'Buka/tutup menu',
 
   'progress.aria': 'Progres pemesanan', 'progress.count': 'Langkah {n} dari {total}',
   'step.details': 'Detail perjalanan', 'step.itinerary': 'Itinerari Anda', 'step.addons': 'Layanan tambahan',
   'back.home': 'Kembali ke beranda', 'back.builder': 'Kembali ke detail perjalanan', 'back.results': 'Kembali ke itinerari',
 
-  'hero.eyebrow': 'TUR PRIVAT · JEPANG', 'hero.t1': 'Jepang lebih seru', 'hero.t2': 'dengan caramu.',
-  'hero.p': 'Bukan sekadar paket tur. Pengalaman Jepang privat yang dirancang sesuai kesukaanmu, ditemani spesialis lokal.',
-  'hero.cta': 'Buat itinerarimu', 'hero.note': 'Dibuat untuk petualanganmu', 'hero.side': 'TOKYO · KYOTO · DAN LAINNYA',
+  'hero.eyebrow': 'YUK JELAJAHI JEPANG', 'hero.t1': 'Jepang lebih seru', 'hero.t2': 'dengan caramu.',
+  'hero.p': 'Kami mempertemukan minatmu dengan pemandu lokal untuk membantu merencanakan perjalanan ke Jepang sesuai ritmemu.',
+  'hero.cta': 'Buat itinerariku', 'hero.note': 'Dibuat untuk petualanganmu', 'hero.side': 'TOKYO · KYOTO · DAN LAINNYA',
 
-  'intro.eyebrow': 'CARA BERBEDA UNTUK BERWISATA', 'intro.t1': 'Minatmu.', 'intro.t2': 'Orang-orangmu.', 'intro.t3': 'Jepangmu.',
+  'intro.eyebrow': 'PERJALANAN YANG TERASA SEPERTIMU', 'intro.t1': 'Minatmu.', 'intro.t2': 'Orang-orangmu.', 'intro.t3': 'Jepangmu.',
   'intro.lead': 'Entah kamu datang untuk anime, fashion vintage, budaya JDM, kuliner, sejarah—atau sedikit dari semuanya—kami mempertemukan orang dan tempat yang tepat.',
-  'intro.p': 'Pilih pengalaman yang kamu sukai dan padukan berbagai spesialisasi dalam satu perjalanan privat. Tanpa paket kaku. Tanpa jadwal seragam untuk semua orang.',
+  'intro.p': 'Pilih pengalaman yang kamu suka dan padukan hal-hal lokal ke dalam perjalanan yang terasa milikmu. Mulai dari beberapa ide, lalu ubah kapan saja—tak ada satu cara yang paling benar untuk merencanakan perjalanan.',
   'intro.cta': 'Susun perjalanan yang terasa seperti milikmu',
 
-  'stories.eyebrow': 'ORANG NYATA, RUTE PRIBADI', 'stories.t1': 'Setiap perjalanan punya', 'stories.t2': 'ceritanya sendiri.',
+  'stories.eyebrow': 'ORANG NYATA, CARA JELAJAH YANG BERAGAM', 'stories.t1': 'Setiap perjalanan punya', 'stories.t2': 'ceritanya sendiri.',
   'stories.prev': 'Sebelumnya', 'stories.next': 'Berikutnya', 'stories.show': 'Tampilkan cerita {n}',
   'story.0.title': 'Petualangan keluarga', 'story.0.detail': 'Sedikit dari segalanya, sesuai ritme semua orang.', 'story.0.tag': 'Liburan keluarga',
   'story.1.title': 'Teman-teman beraksi', 'story.1.detail': 'Arkade, jajan larut malam, dan energi kota.', 'story.1.tag': 'Liburan bersama teman',
   'story.2.title': 'Pelarian yang pantas didapat', 'story.2.detail': 'Belanja, budaya, dan momen tak terlupakan.', 'story.2.tag': 'Liburan para sahabat wanita',
   'story.3.title': 'Dua tiket ke Jepang', 'story.3.detail': 'Rute pribadi untuk dua pelancong yang penasaran.', 'story.3.tag': 'Liburan pasangan',
 
-  'guides.eyebrow': 'PEMANDU LOKALMU', 'guides.t1': 'Kenali ', 'guides.t2': 'pemandu wisatamu.',
-  'guides.copy': 'Bukan sekadar pemandu. Warga lokal yang bersemangat, paham dunianya, kotanya, dan detail kecil yang membuat perjalanan tak terlupakan.',
+  'guides.eyebrow': 'KENALI WARGA LOKAL', 'guides.t1': 'Kenali ', 'guides.t2': 'pemandu wisatamu.',
+  'guides.copy': 'Warga lokal yang senang berbagi tempat dan minat yang membuat Jepang istimewa.',
   'guides.cta': 'Temukan spesialismu', 'guide.meet': 'KENALI {name}', 'guide.alt': '{name}, pemandu wisata',
   'guide.0.role': 'Spesialis anime & gaming', 'guide.0.bio': 'Dari kawasan anime ikonik hingga toko figur tersembunyi dan arkade retro, Ren tahu di mana dunia penggemar hidup.', 'guide.0.tags': 'Anime|Gaming|Akihabara',
   'guide.1.role': 'Fashion & budaya jalanan', 'guide.1.bio': 'Jelajahi label independen Tokyo, toko vintage, sudut streetwear, dan orang-orang yang membentuk gaya lokal.', 'guide.1.tags': 'Fashion|Vintage|Streetwear',
   'guide.2.role': 'Mobil & budaya lokal', 'guide.2.bio': 'Penggemar mobil yang bisa membawamu melampaui yang biasa, dari landmark otomotif hingga tempat makan lokal.', 'guide.2.tags': 'Mobil|Kuliner|Tempat lokal',
+  'guide.3.role': 'Kuliner & sudut lokal', 'guide.3.bio': 'Aiko suka menemukan restoran keluarga kecil, pasar yang ramai, dan camilan favorit warga lokal.', 'guide.3.tags': 'Kuliner|Pasar|Tempat lokal',
+  'guide.4.role': 'Sejarah & keseharian Tokyo', 'guide.4.bio': 'Kenji menghidupkan cerita masa lalu lewat jalan santai di gang tua, kuil, dan sudut tersembunyi.', 'guide.4.tags': 'Sejarah|Jalan kaki|Kuil',
+  'guide.5.role': 'Seni, alam & hari santai', 'guide.5.bio': 'Yui tahu taman yang tenang, ruang kreatif, dan tempat indah untuk berhenti sejenak menikmati suasana.', 'guide.5.tags': 'Seni|Taman|Santai',
 
   'mix.eyebrow': 'KEUNIKAN TABITEMU', 'mix.t1': 'Kenapa pilih satu', 'mix.t2': 'kalau bisa ', 'mix.t3': 'dipadukan?',
   'mix.p': 'Mulai pagi dengan berburu toko vintage bersama pakar fashion. Habiskan sore di landmark anime. Tutup dengan wisata kuliner lokal. Harimu, kombinasimu.',
   'mix.cta': 'Padukan minatmu', 'mix.alt.fashion': 'Fashion Tokyo', 'mix.alt.anime': 'Budaya anime', 'mix.alt.food': 'Makanan Jepang',
   'cta.eyebrow': 'KAPAN PUN KAMU SIAP', 'cta.t1': 'Mari jadikan perjalanan ini', 'cta.t2': 'milikmu.', 'cta.button': 'Mulai merencanakan',
 
-  'builder.eyebrow': 'PERJALANANMU DIMULAI DI SINI', 'builder.t1': 'Mari rencanakan Jepang', 'builder.t2': 'yang terasa seperti dirimu.',
+  'builder.eyebrow': 'PERJALANANMU DIMULAI DI SINI', 'builder.t1': 'Mari rencanakan perjalanan ke Jepang', 'builder.t2': 'yang terasa seperti dirimu.',
   'builder.p': 'Ceritakan sedikit tentang perjalananmu. Kami akan menyusun dua cara untuk menikmatinya.',
   'form.step1': '01 / DASAR-DASAR', 'form.h1': 'Pertama, detailnya.', 'form.p1': 'Kami akan memakainya untuk menyusun draf itinerari pertamamu.',
   'form.arrival': 'Tanggal kedatangan', 'form.departure': 'Tanggal kepulangan', 'form.travelers': 'Jumlah pelancong', 'form.where': 'Ke mana kamu ingin pergi?',
@@ -198,7 +204,7 @@ const id = {
   'services.bottom.eyebrow': 'BELUM YAKIN APA YANG DIBUTUHKAN?', 'services.bottom.t1': 'Kita cari tahu', 'services.bottom.t2': 'bersama-sama.',
   'services.bottom.p': 'Mulailah dari minatmu. Kami akan membantu menentukan spesialis dan layanan yang masuk akal.', 'services.bottom.cta': 'Mulai dari itinerarimu',
 
-  'footer.tagline': 'Perjalanan privat ke Jepang, dibuat personal.', 'footer.services': 'Layanan',
+  'footer.tagline': 'Perjalanan ke Jepang yang terasa milikmu.', 'footer.services': 'Layanan',
   'footer.copy': '© 2026 Tabitemu. Konsep prototipe.', 'footer.made': 'Dibuat untuk pelancong yang penasaran',
 };
 
