@@ -25,6 +25,13 @@ const en = {
   'story.2.title': 'A well-deserved escape', 'story.2.detail': 'Shopping, culture and memorable moments.', 'story.2.tag': 'Girls’ trip',
   'story.3.title': 'Two tickets to Japan', 'story.3.detail': 'A personal route for two curious travelers.', 'story.3.tag': 'Couples trip',
 
+  'how.eyebrow': 'HOW IT WORKS', 'how.t1': 'Building your', 'how.t2': 'itinerary.',
+  'how.p': 'Three simple steps to create your perfect Japan experience.',
+  'how.step1.title': 'Tell us about yourself', 'how.step1.desc': 'Share your travel dates, destination, and the interests that matter to you.',
+  'how.step2.title': 'Get two itinerary options', 'how.step2.desc': 'We generate personalized plans—one relaxed, one packed with experiences.',
+  'how.step3.title': 'Customize & refine', 'how.step3.desc': 'Adjust activities, times, and details to match your exact vision.',
+  'how.step4.title': 'Ready to go', 'how.step4.desc': 'Get expert tips from local guides and book your perfect Japan adventure.',
+
   'guides.eyebrow': 'MEET YOUR LOCAL COMMUNITY', 'guides.t1': 'Meet your ', 'guides.t2': 'tour guides.',
   'guides.copy': 'Local people who love sharing the places and interests that make Japan special.',
   'guides.cta': 'Find your specialist', 'guide.meet': 'MEET {name}', 'guide.alt': '{name}, tour guide',
@@ -128,6 +135,13 @@ const id = {
   'story.1.title': 'Teman-teman beraksi', 'story.1.detail': 'Arkade, jajan larut malam, dan energi kota.', 'story.1.tag': 'Liburan bersama teman',
   'story.2.title': 'Pelarian yang pantas didapat', 'story.2.detail': 'Belanja, budaya, dan momen tak terlupakan.', 'story.2.tag': 'Liburan para sahabat wanita',
   'story.3.title': 'Dua tiket ke Jepang', 'story.3.detail': 'Rute pribadi untuk dua pelancong yang penasaran.', 'story.3.tag': 'Liburan pasangan',
+
+  'how.eyebrow': 'CARA KERJANYA', 'how.t1': 'Membangun', 'how.t2': 'itinerariummu.',
+  'how.p': 'Tiga langkah sederhana untuk menciptakan pengalaman Jepang yang sempurna.',
+  'how.step1.title': 'Ceritakan tentang dirimu', 'how.step1.desc': 'Bagikan tanggal perjalanan, destinasi, dan minat yang penting bagi Anda.',
+  'how.step2.title': 'Dapatkan dua pilihan itinerari', 'how.step2.desc': 'Kami membuat rencana yang dipersonalisasi—satu santai, satu penuh pengalaman.',
+  'how.step3.title': 'Sesuaikan dan perbaiki', 'how.step3.desc': 'Ubah aktivitas, waktu, dan detail untuk cocok dengan visi Anda.',
+  'how.step4.title': 'Siap untuk terjadi', 'how.step4.desc': 'Dapatkan tips ahli dari pemandu lokal dan pesan petualangan Jepang sempurnamu.',
 
   'guides.eyebrow': 'KENALI WARGA LOKAL', 'guides.t1': 'Kenali ', 'guides.t2': 'pemandu wisatamu.',
   'guides.copy': 'Warga lokal yang senang berbagi tempat dan minat yang membuat Jepang istimewa.',

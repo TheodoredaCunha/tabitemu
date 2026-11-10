@@ -316,6 +316,45 @@ html[lang="id"] .hero-content h1 {
   font-size: 10px;
 }
 
+.how-it-works {
+  padding-top: 60px;
+  padding-bottom: 72px;
+}
+
+.steps-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 24px;
+}
+
+.step-card {
+  padding: 32px;
+  background: var(--cream);
+  border-radius: 20px;
+  box-shadow: 0 4px 16px #24433410;
+}
+
+.step-number {
+  font-size: 48px;
+  font-weight: 700;
+  color: var(--green);
+  line-height: 1;
+  margin-bottom: 16px;
+}
+
+.step-card h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: var(--ink);
+}
+
+.step-card p {
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.7;
+}
+
 .mix-banner {
   background: #e7f2e8;
   color: var(--ink);
