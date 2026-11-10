@@ -50,19 +50,18 @@ async function fetchStaffFromAirtable() {
     },
   });
 
-  if (!response.ok) {
-    if (response.status === 401) {
-      throw new Error('Airtable authentication failed. Check your token.');
-    }
+    if (!response.ok) {
+    const errorBody = await response.text();
 
-    if (response.status === 404) {
-      throw new Error('Airtable base or table not found.');
-    }
+    console.error('Airtable response:', {
+        status: response.status,
+        body: errorBody,
+    });
 
     throw new Error(
-      `Airtable API error: ${response.status} ${response.statusText}`
+        `Airtable API error (${response.status}): ${errorBody}`
     );
-  }
+    }
 
   const data = await response.json();
   return (data.records || []).map(normalizeStaffRecord);
