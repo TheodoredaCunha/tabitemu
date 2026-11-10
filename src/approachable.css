@@ -89,6 +89,8 @@ h3,
   box-shadow: 0 14px 36px #183a2b20;
   backdrop-filter: blur(8px);
   color: var(--ink);
+  display: flex;
+  flex-direction: column;
 }
 
 .eyebrow {
@@ -165,6 +167,7 @@ h3,
   color: #fff;
   font-size: 17px;
   font-weight: 700;
+  white-space: nowrap;
 }
 
 .hero-cta:hover {
