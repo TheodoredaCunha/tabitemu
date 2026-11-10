@@ -26,7 +26,7 @@ const normalizeStaffRecord = (record) => {
     role: fields.role || '',
     tags: (fields.tags || '')
       .split(',')
-      .map(tag => tag.trim())
+      .map((tag) => tag.trim())
       .filter(Boolean),
     photo: fields.photo?.[0]?.url || null,
   };
@@ -35,14 +35,15 @@ const normalizeStaffRecord = (record) => {
 async function fetchStaffFromAirtable() {
   const token = process.env.AIRTABLE_TOKEN;
   const baseId = process.env.AIRTABLE_BASE_ID;
+  const tableId = process.env.AIRTABLE_TABLE_ID;
 
-  if (!token || !baseId) {
+  if (!token || !baseId || !tableId) {
     throw new Error(
-      'Missing Airtable credentials: AIRTABLE_TOKEN and AIRTABLE_BASE_ID are required'
+      'Missing environment variables: AIRTABLE_TOKEN, AIRTABLE_BASE_ID, or AIRTABLE_TABLE_ID'
     );
   }
 
-  const url = `${AIRTABLE_API_URL}/${baseId}/Staff`;
+  const url = `${AIRTABLE_API_URL}/${baseId}/${tableId}`;
 
   const response = await fetch(url, {
     headers: {
@@ -50,20 +51,21 @@ async function fetchStaffFromAirtable() {
     },
   });
 
-    if (!response.ok) {
+  if (!response.ok) {
     const errorBody = await response.text();
 
     console.error('Airtable response:', {
-        status: response.status,
-        body: errorBody,
+      status: response.status,
+      body: errorBody,
     });
 
     throw new Error(
-        `Airtable API error (${response.status}): ${errorBody}`
+      `Airtable API error (${response.status}): ${errorBody}`
     );
-    }
+  }
 
   const data = await response.json();
+
   return (data.records || []).map(normalizeStaffRecord);
 }
 
@@ -86,7 +88,10 @@ export default async function handler(request) {
   }
 
   if (request.method !== 'GET') {
-    return jsonResponse({ error: 'Method not allowed' }, 405);
+    return jsonResponse(
+      { success: false, error: 'Method not allowed' },
+      405
+    );
   }
 
   try {
@@ -99,9 +104,12 @@ export default async function handler(request) {
   } catch (error) {
     console.error('Staff API error:', error);
 
-    return jsonResponse({
-      success: false,
-      error: error.message || 'Failed to fetch staff data',
-    }, 500);
+    return jsonResponse(
+      {
+        success: false,
+        error: error.message || 'Failed to fetch staff data',
+      },
+      500
+    );
   }
 }
