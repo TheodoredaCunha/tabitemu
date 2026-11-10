@@ -33,6 +33,7 @@ const en = {
   'how.step4.title': 'Ready to go', 'how.step4.desc': 'Get expert tips from local guides and book your perfect Japan adventure.',
 
   'guides.eyebrow': 'MEET YOUR LOCAL COMMUNITY', 'guides.t1': 'Meet your ', 'guides.t2': 'tour guides.',
+  'guides.loading': 'Loading guides...', 'guides.error': 'Unable to load guides. Please try again later.',
   'guides.copy': 'Local people who love sharing the places and interests that make Japan special.',
   'guides.cta': 'Find your specialist', 'guide.meet': 'MEET {name}', 'guide.alt': '{name}, tour guide',
   'guide.0.role': 'Anime & gaming specialist', 'guide.0.bio': 'From iconic anime neighborhoods to hidden figure shops and retro arcades, Ren knows where fandom comes to life.', 'guide.0.tags': 'Anime|Gaming|Akihabara',
@@ -145,6 +146,7 @@ const id = {
 
   'guides.eyebrow': 'KENALI WARGA LOKAL', 'guides.t1': 'Kenali ', 'guides.t2': 'pemandu wisatamu.',
   'guides.copy': 'Warga lokal yang senang berbagi tempat dan minat yang membuat Jepang istimewa.',
+  'guides.loading': 'Memuat pemandu...', 'guides.error': 'Gagal memuat pemandu. Silakan coba lagi nanti.',
   'guides.cta': 'Temukan spesialismu', 'guide.meet': 'KENALI {name}', 'guide.alt': '{name}, pemandu wisata',
   'guide.0.role': 'Spesialis anime & gaming', 'guide.0.bio': 'Dari kawasan anime ikonik hingga toko figur tersembunyi dan arkade retro, Ren tahu di mana dunia penggemar hidup.', 'guide.0.tags': 'Anime|Gaming|Akihabara',
   'guide.1.role': 'Fashion & budaya jalanan', 'guide.1.bio': 'Jelajahi label independen Tokyo, toko vintage, sudut streetwear, dan orang-orang yang membentuk gaya lokal.', 'guide.1.tags': 'Fashion|Vintage|Streetwear',
