@@ -137,14 +137,14 @@ const id = {
   'story.2.title': 'Pelarian yang pantas didapat', 'story.2.detail': 'Belanja, budaya, dan momen tak terlupakan.', 'story.2.tag': 'Liburan para sahabat wanita',
   'story.3.title': 'Dua tiket ke Jepang', 'story.3.detail': 'Rute pribadi untuk dua pelancong yang penasaran.', 'story.3.tag': 'Liburan pasangan',
 
-  'how.eyebrow': 'CARA KERJANYA', 'how.t1': 'Membangun', 'how.t2': 'itinerariummu.',
+  'how.eyebrow': 'CARA KERJANYA', 'how.t1': 'Membangun', 'how.t2': 'itinerarimmu.',
   'how.p': 'Tiga langkah sederhana untuk menciptakan pengalaman Jepang yang sempurna.',
   'how.step1.title': 'Ceritakan tentang dirimu', 'how.step1.desc': 'Bagikan tanggal perjalanan, destinasi, dan minat yang penting bagi Anda.',
   'how.step2.title': 'Dapatkan dua pilihan itinerari', 'how.step2.desc': 'Kami membuat rencana yang dipersonalisasi—satu santai, satu penuh pengalaman.',
   'how.step3.title': 'Sesuaikan dan perbaiki', 'how.step3.desc': 'Ubah aktivitas, waktu, dan detail untuk cocok dengan visi Anda.',
   'how.step4.title': 'Siap untuk terjadi', 'how.step4.desc': 'Dapatkan tips ahli dari pemandu lokal dan pesan petualangan Jepang sempurnamu.',
 
-  'guides.eyebrow': 'KENALI WARGA LOKAL', 'guides.t1': 'Kenali ', 'guides.t2': 'pemandu wisatamu.',
+  'guides.eyebrow': 'KENALI WARGA LOKAL', 'guides.t1': 'Kenali ', 'guides.t2': 'tour guide-mu.',
   'guides.copy': 'Warga lokal yang senang berbagi tempat dan minat yang membuat Jepang istimewa.',
   'guides.loading': 'Memuat pemandu...', 'guides.error': 'Gagal memuat pemandu. Silakan coba lagi nanti.',
   'guides.cta': 'Temukan spesialismu', 'guide.meet': 'KENALI {name}', 'guide.alt': '{name}, pemandu wisata',
