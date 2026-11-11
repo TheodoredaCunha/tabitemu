@@ -1,14 +1,15 @@
 :root {
   font-family: 'DM Sans', sans-serif;
-  color: #233b34;
-  background: #f4faf5;
-  --ink: #233b34;
-  --muted: #587168;
-  --paper: #f4faf5;
-  --cream: #e8f2e9;
-  --red: #d7654a;
-  --green: #287452;
-  --line: #d5e4d8;
+  color: #29231f;
+  background: #fffaf0;
+  --ink: #29231f;
+  --muted: #71685f;
+  --paper: #fffaf0;
+  --cream: #f6eedc;
+  --red: #c71932;
+  --green: #c71932;
+  --line: #e9dfce;
+  --yellow: #f4cf4d;
 }
 
 body {
